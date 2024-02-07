@@ -15,10 +15,12 @@ final class DataFactory {
 
     func make() -> DemoObjectStore {
         if let sharedObjectStore {
+            print("DemoObjectStore reuse")
             return sharedObjectStore
         }
         let store = DemoObjectStore()
         sharedObjectStore = store
+        print("DemoObjectStore initialize")
         return store
     }
 

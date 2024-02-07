@@ -15,9 +15,9 @@
 		94A6112B2B73C6E2008CB95B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94A611292B73C6E2008CB95B /* LaunchScreen.storyboard */; };
 		94A611332B73C7F3008CB95B /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A611322B73C7F3008CB95B /* SecondViewController.swift */; };
 		94A611352B73CB5C008CB95B /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A611342B73CB5C008CB95B /* ThirdViewController.swift */; };
-		94A611382B73CB89008CB95B /* DataFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A611372B73CB89008CB95B /* DataFactory.swift */; };
-		94A6113A2B73CBA7008CB95B /* DemoObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A611392B73CBA7008CB95B /* DemoObject.swift */; };
-		94A6113C2B73CC32008CB95B /* DemoObjectStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A6113B2B73CC32008CB95B /* DemoObjectStore.swift */; };
+		94A611402B73D426008CB95B /* DemoObjectStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A6113D2B73D426008CB95B /* DemoObjectStore.swift */; };
+		94A611412B73D426008CB95B /* DataFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A6113E2B73D426008CB95B /* DataFactory.swift */; };
+		94A611422B73D426008CB95B /* DemoObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A6113F2B73D426008CB95B /* DemoObject.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,9 +31,9 @@
 		94A6112C2B73C6E2008CB95B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		94A611322B73C7F3008CB95B /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SecondViewController.swift; path = ../../../../.Trash/RetainCountTest/RetainCountTest/SecondViewController.swift; sourceTree = "<group>"; };
 		94A611342B73CB5C008CB95B /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ThirdViewController.swift; path = ../../../../.Trash/RetainCountTest/RetainCountTest/ThirdViewController.swift; sourceTree = "<group>"; };
-		94A611372B73CB89008CB95B /* DataFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DataFactory.swift; path = ../../../../../DataFactory.swift; sourceTree = "<group>"; };
-		94A611392B73CBA7008CB95B /* DemoObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DemoObject.swift; path = ../../../../../DemoObject.swift; sourceTree = "<group>"; };
-		94A6113B2B73CC32008CB95B /* DemoObjectStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DemoObjectStore.swift; path = ../../../../../DemoObjectStore.swift; sourceTree = "<group>"; };
+		94A6113D2B73D426008CB95B /* DemoObjectStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoObjectStore.swift; sourceTree = "<group>"; };
+		94A6113E2B73D426008CB95B /* DataFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataFactory.swift; sourceTree = "<group>"; };
+		94A6113F2B73D426008CB95B /* DemoObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoObject.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,9 +83,9 @@
 		94A611362B73CB79008CB95B /* Store */ = {
 			isa = PBXGroup;
 			children = (
-				94A611372B73CB89008CB95B /* DataFactory.swift */,
-				94A611392B73CBA7008CB95B /* DemoObject.swift */,
-				94A6113B2B73CC32008CB95B /* DemoObjectStore.swift */,
+				94A6113E2B73D426008CB95B /* DataFactory.swift */,
+				94A6113F2B73D426008CB95B /* DemoObject.swift */,
+				94A6113D2B73D426008CB95B /* DemoObjectStore.swift */,
 			);
 			path = Store;
 			sourceTree = "<group>";
@@ -161,14 +161,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				94A6113A2B73CBA7008CB95B /* DemoObject.swift in Sources */,
-				94A6113C2B73CC32008CB95B /* DemoObjectStore.swift in Sources */,
 				94A611332B73C7F3008CB95B /* SecondViewController.swift in Sources */,
-				94A611382B73CB89008CB95B /* DataFactory.swift in Sources */,
 				94A611232B73C6DF008CB95B /* ViewController.swift in Sources */,
 				94A611352B73CB5C008CB95B /* ThirdViewController.swift in Sources */,
+				94A611412B73D426008CB95B /* DataFactory.swift in Sources */,
+				94A611402B73D426008CB95B /* DemoObjectStore.swift in Sources */,
 				94A6111F2B73C6DF008CB95B /* AppDelegate.swift in Sources */,
 				94A611212B73C6DF008CB95B /* SceneDelegate.swift in Sources */,
+				94A611422B73D426008CB95B /* DemoObject.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
